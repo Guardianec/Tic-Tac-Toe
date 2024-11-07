@@ -18,10 +18,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.guardianec.TicTacToe"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "output": "static",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "387ea266-e6b6-4566-96fb-109d09a77d75"
+      }
     }
   }
 }
